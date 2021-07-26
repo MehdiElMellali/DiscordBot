@@ -11,15 +11,15 @@ bot.on('ready', () => {
 
 bot.on('message', msg => {
   if (msg.content.includes("among")) {
-    msg.reply('rak tama');
-    msg.channel.send('rak tama');
+    msg.reply('Im Here');
+    msg.channel.send('Exist');
 
   } 
   else if(msg.content.includes("gay") && msg.mentions.users.first().id == '570370084426612746'){
-    msg.channel.send("chti lbsala a " + msg.mentions.users.first() );
+    msg.channel.send("Attention" + msg.mentions.users.first() );
   }
   else if (msg.content.includes("gay")) {
-      msg.channel.send('btabi3t l7al ' +msg.mentions.users.first() +' Gay , wa zwiml');
+      msg.channel.send('btabi3t l7al ' +msg.mentions.users.first() +'Hello');
   }
   
   else if (msg.content.startsWith('!kick')) {
